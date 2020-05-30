@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter amount to convert"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount to transfer"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"/>
+
+    <Spinner
+        android:id="@+id/sp_from"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:entries="@array/array_of_currencies_short_form"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textSize="16sp"
+        android:layout_gravity=""/>
+
+    <Spinner
+        android:id="@+id/sp_to"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:entries="@array/array_of_currencies_short_form"/>
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/conversion_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="USD 1 equals AED 3"
+        android:textColor="@color/colorGrey"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="empty_amount_field">Please Enter an amount to convert</string>
+    <string name="change_one">Both the source and target currencies are the same. Cannot convert.</string>
+    <string name="failed_to_convert">failed to convert</string>
+
+    <string-array name="array_of_currencies_short_form">
+        <item>AED</item>
+        <item>ARS</item>
+        <item>AUD</item>
+        <item>BGN</item>
+        <item>BRL</item>
+        <item>BSD</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CLP</item>
+        <item>CNY</item>
+        <item>COP</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>DOP</item>
+        <item>EGP</item>
+        <item>EUR</item>
+        <item>FJD</item>
+        <item>GBP</item>
+        <item>GTQ</item>
+        <item>HKD</item>
+        <item>HRK</item>
+        <item>HUF</item>
+        <item>IDR</item>
+        <item>INR</item>
+        <item>ISK</item>
+        <item>JPY</item>
+        <item>KRW</item>
+        <item>KZT</item>
+        <item>MXN</item>
+        <item>MYR</item>
+        <item>NOK</item>
+        <item>NZD</item>
+        <item>PAB</item>
+        <item>PEN</item>
+        <item>PHP</item>
+        <item>PKR</item>
+        <item>PLN</item>
+        <item>PYG</item>
+        <item>RON</item>
+        <item>RUB</item>
+        <item>SAR</item>
+        <item>SEK</item>
+        <item>SGD</item>
+        <item>THB</item>
+        <item>TRY</item>
+        <item>TWD</item>
+        <item>UAH</item>
+        <item>USD</item>
+        <item>UYU</item>
+        <item>VND</item>
+        <item>ZAR</item>
+    </string-array>
+
+</resources>
